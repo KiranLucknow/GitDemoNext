@@ -18,6 +18,9 @@ public class LoginSteps extends CommonFunctions {
     public void i_m_on_open_homepage(String url) throws Exception{
         driver.get(url);
         takeScreenShot("homepage.jpg");
+        System.out.println("Git check");
+        System.out.println("Git check1");
+        System.out.println("Git check2");
     }
 
     @When("I click my account link on header")
